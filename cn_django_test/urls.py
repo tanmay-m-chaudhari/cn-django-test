@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include  # include is used to include urls from other apps
 
-urlpatterns = [
+urlpatterns =
     path('admin/', admin.site.urls),
     path('', include('first_app.urls')),
 ]
